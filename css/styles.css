@@ -30,6 +30,26 @@ header{
     align-items: center;
     justify-content: space-around;
 }
+.nav_ul{
+    display: flex;
+    align-items: center;
+}
+.nav_li{
+    margin: 0 20px;
+}
+.nav_a{
+    color:#FFFFFF;
+    font-size: 12px;
+    line-height: 20px;
+    transition: 1s;
+}
+.nav_a:hover{
+    color: rgb(210, 126, 126);
+}
+
+
+
+
 @media(max-width: 960px){
     .container{
         width: 840px;
