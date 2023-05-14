@@ -15,7 +15,7 @@ body{
 }
 .container{
     width: 940px;
-    margin: 0 avto;
+    margin: 0 auto;
 }
 img{
     width: 100%;
@@ -50,6 +50,23 @@ header{
 }
 .nav_a:hover{
     color: rgb(210, 126, 126);
+}
+.escape_box3{
+    text-align: center;
+}
+.nav_h2{
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.nav_p{
+    color: #FFFFFFA1;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 
