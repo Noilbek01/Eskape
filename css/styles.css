@@ -20,7 +20,9 @@ body{
 img{
     width: 100%;
 }
-
+header{
+    background-image: url(../img/IMAGE\ \(27\).png);
+}
 @media(max-width: 960px){
     .container{
         width: 840px;
