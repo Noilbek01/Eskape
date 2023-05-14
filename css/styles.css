@@ -88,6 +88,11 @@ header{
     border: 1px solid #DD783F;
     margin-bottom: 50px;
 }
+main.main_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
