@@ -109,6 +109,29 @@ main{
 .main_a:hover{
     color: rgb(213, 142, 142);
 }
+.section1{
+    background-color: #F7F7F7;
+}
+.photo1{
+    width: 460px;
+    height: 280px;
+    background-image: url(../img/IMAGE\ \(28\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.photo2{
+    width: 460px;
+    height: 280px;
+    background-image: url(../img/IMAGE\ \(29\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+
 
 
 
