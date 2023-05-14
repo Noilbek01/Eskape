@@ -195,6 +195,35 @@ main{
     font-size: 12px;
     line-height: 35px;
 }
+.section2{
+    background-color: #F7F7F7;
+}
+.most_photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+.most_photo{
+    width: 296px;
+    height: 291px;
+    background-color: #FFFFFF;
+}
+.most-img{
+    display: flex;
+    align-items: center;
+}
+.most{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.most_img{
+    width: 296px;
+    height: 150px;
+}
+
 
 
 
