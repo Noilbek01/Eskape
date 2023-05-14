@@ -145,6 +145,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
+}
+.photo1{
+    margin-right: 20px;
 }
 
 
