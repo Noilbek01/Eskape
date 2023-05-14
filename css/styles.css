@@ -68,6 +68,22 @@ header{
     text-align: center;
     margin-top: 20px;
 }
+.header_a{
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+.nav_button{
+    background-color: #DD783F;
+    width: 167px;
+    height: 44px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid #DD783F;
+    margin-bottom: 50px;
+}
 
 
 
