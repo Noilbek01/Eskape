@@ -17,3 +17,7 @@ body{
     width: 940px;
     margin: 0 avto;
 }
+img{
+    width: 100%;
+}
+@media{max-width: 960px;}
