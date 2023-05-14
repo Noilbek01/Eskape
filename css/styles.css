@@ -158,6 +158,15 @@ main{
     width: 30px;
     height: 30px;
 }
+.road_photo{
+    display: flex;
+    align-items: center;
+}
+.road_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
