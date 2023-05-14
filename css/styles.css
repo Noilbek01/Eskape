@@ -140,7 +140,11 @@ main{
     margin: 0 auto;
     margin-bottom: 30px;
     padding-top: 30px;
-
+}
+.section1_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
