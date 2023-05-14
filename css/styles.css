@@ -1,6 +1,6 @@
 *{
-    margin: 0 avto;
-    padding: 0 avto;
+    margin: 0 ;
+    padding: 0 ;
     box-sizing: border-box;
 }
 ul,li{
@@ -23,7 +23,7 @@ img{
 header{
     background-image: url(../img/IMAGE\ \(27\).png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position-x: center;
     background-size: cover; 
 }
 .box{
@@ -34,6 +34,8 @@ header{
 .nav_ul{
     display: flex;
     align-items: center;
+    margin-bottom:50px;
+    margin-top: 20px;
 }
 .nav_li{
     margin: 0 20px;
@@ -48,6 +50,8 @@ header{
     color: #FFFFFF;
     font-size: 26px;
     line-height: 26px;
+    margin-bottom:50px;
+    margin-top: 20px;
 }
 .nav_a:hover{
     color: rgb(210, 126, 126);
@@ -67,7 +71,7 @@ header{
     font-size: 17px;
     line-height: 20px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .header_a{
     color: #FFFFFF;
@@ -79,7 +83,7 @@ header{
     background-color: #DD783F;
     width: 167px;
     height: 44px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 3px;
     border: 1px solid #DD783F;
     margin-bottom: 50px;
