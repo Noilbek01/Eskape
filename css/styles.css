@@ -24,6 +24,7 @@ header{
     background-image: url(../img/IMAGE\ \(27\).png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover; 
 }
 .box{
     display: flex;
@@ -78,12 +79,10 @@ header{
     background-color: #DD783F;
     width: 167px;
     height: 44px;
-    padding: 15px 20px;
     margin-top: 20px;
     border-radius: 3px;
     border: 1px solid #DD783F;
     margin-bottom: 50px;
-    text-align: center;
 }
 
 
@@ -92,6 +91,7 @@ header{
 @media(max-width: 960px){
     .container{
         width: 840px;
+
     }
 
 }
@@ -116,12 +116,29 @@ header{
 @media(max-width: 560px){
     .container{
         width: 440px;
+        
+    }
+    .nav_ul{
+        display: none;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav_h2{
+        font-size: 30px;
+        line-height: 40px;
     }
 
 }
 @media(max-width: 460px){
     .container{
         width: 340px;
+    }
+    .nav_h2{
+        font-size: 24px;
+        line-height: 29px;
     }
 
 }
