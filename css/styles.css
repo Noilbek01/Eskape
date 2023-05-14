@@ -166,10 +166,32 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 180px;
+    margin-top: 40px;
 }
 .road_h2{
     color: #FFFFFF;
+    margin-top: 140px;
+    margin-left: 52px;
+    font-size: 27px;
+    line-height: 30px;
+}
+.road_p{
+    color: #FFFFFFB2;
+    margin-top: 20px;
+    margin-left: 52px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.road_b{
+    color: #FFFFFFB2;
+    font-size: 12px;
+    line-height: 35px;
+}
+.road-p{
+    color: #FFFFFFB2;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 35px;
 }
 
 
