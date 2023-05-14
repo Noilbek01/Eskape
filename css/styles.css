@@ -99,6 +99,16 @@ main{
 .main_li{
     margin: 0 25px;
 }
+.main_a{
+    color: #768088;
+    font-size: 14px;
+    line-height: 20px;
+    transition: 1s;
+    margin: 20px 0;
+}
+.main_a:hover{
+    color: rgb(213, 142, 142);
+}
 
 
 
@@ -144,6 +154,10 @@ main{
     .nav_h2{
         font-size: 30px;
         line-height: 40px;
+    }
+    .main_ul{
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
