@@ -88,6 +88,9 @@ header{
     border: 1px solid #DD783F;
     margin-bottom: 50px;
 }
+main{
+    background-color: #FFFFFF;
+}
 .main_ul{
     display: flex;
     align-items: center;
