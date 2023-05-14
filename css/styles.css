@@ -43,6 +43,11 @@ header{
     line-height: 20px;
     transition: 1s;
 }
+.nav_h1{
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 26px;
+}
 .nav_a:hover{
     color: rgb(210, 126, 126);
 }
