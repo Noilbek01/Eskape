@@ -88,10 +88,13 @@ header{
     border: 1px solid #DD783F;
     margin-bottom: 50px;
 }
-main.main_ul{
+.main_ul{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.main_li{
+    margin: 0 25px;
 }
 
 
