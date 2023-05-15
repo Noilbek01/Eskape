@@ -126,7 +126,7 @@ main{
     background-image: url(../img/IMAGE\ \(29\).png);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: cover; 
+    background-size: cover;
    
 }
 .section1_a{
@@ -148,7 +148,7 @@ main{
     display: flex;
     align-items: center;
     padding-bottom: 50px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .road_img1{
     width: 30px;
@@ -198,31 +198,100 @@ main{
 .section2{
     background-color: #F7F7F7;
 }
-.most_photos{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 50px;
-    
-}
 .most_photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
     width: 296px;
     height: 291px;
     background-color: #FFFFFF;
+    margin-top: 20px;
+    width: 30%;
+}
+.photos1{
+    display: flex;
+    align-items: center;
+    margin: 24px 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 .most-img{
     display: flex;
     align-items: center;
+   
 }
-.most{
+.most2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid#EFEFEF;
+}
+.most4{
     align-items: center;
     display: flex;
     justify-content: space-around;
+    border: 1px solid#EFEFEF;
 }
-.most_img{
-    width: 296px;
-    height: 150px;
+.most1{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid#EFEFEF;
 }
+.most_h2{
+    color: #101315;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.most_p{
+    color: #7A7A7A;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.most-p{
+    color: #999999;
+    margin-left: 15px;
+    font-size: 11px;
+    line-height: 35px;
+}
+.most_b{
+    color: #999999;
+    font-size: 12px;
+    line-height: 35px;
+}
+.section3{
+    background-image: url(../img/IMAGE\ \(38\).png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.section3_a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
 
 
 
@@ -244,13 +313,20 @@ main{
         display: flex;
         flex-direction: column;
     }
+    .most_photo{
+        width: 45%;
+    }
     .photo1{
-        text-align: center;
+        margin-bottom: 30px;
     }
-    .photo2{
-        text-align: center;
-        margin-top: 20px;
+    .most2{
+        /* margin-top: 40px; */
     }
+    .most3{
+        /* margin-top: 40px; */
+    }
+
+    
     
 
 }
@@ -284,7 +360,8 @@ main{
 }
 @media(max-width: 560px){
     .container{
-        width: 440px;
+        max-width: 440px;
+        width:100%;
     }
      
     
@@ -308,7 +385,8 @@ main{
 }
 @media(max-width: 460px){
     .container{
-        width: 340px;
+        width:100%;
+        max-width: 380px;
     }
     .nav_h2{
         font-size: 24px;
@@ -316,9 +394,14 @@ main{
     }
 
 }
-@media(max-width: 360px){
+@media(max-width: 390px){
     .container{
-        width: 240px;
+        max-width: 380px;
+        width: 100%;
+    }
+    .most_photo{
+        width: 100%;
+        max-width: 380px;
     }
 
 }
