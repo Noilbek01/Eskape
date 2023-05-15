@@ -281,6 +281,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 81px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #EFEFEF;
 }
 .section3_box{
     display: flex;
@@ -288,6 +292,7 @@ main{
     justify-content: center;
     margin-top: 50px;
 }
+
 
 
 
