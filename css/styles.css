@@ -309,6 +309,9 @@ footer{
     border: none;
     background-color: #FFFFFF47;
 }
+.most-p{
+    margin-left: 15px;
+}
 
 
 
@@ -388,7 +391,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    }  
 
 }
 @media(max-width: 560px){
